@@ -1,0 +1,55 @@
+# PowerShell Script: IIS Web Application and Windows Service Management
+
+This PowerShell script allows you to manage IIS web applications and Windows services on local and remote machines. The script presents a user-friendly interface to interactively start, stop, and remove IIS web applications or Windows services.
+
+## Author
+**Author:** blcsilva
+
+## Requirements
+- PowerShell 5.1 or later
+- Windows OS with IIS installed (for IIS web application management)
+
+## Usage
+1. Run the script in a PowerShell console or ISE.
+
+2. Choose an option:
+   - **1** for managing IIS web applications.
+   - **2** for managing Windows services.
+
+### If you selected **1** for IIS web application management:
+3. A list of available IIS web applications will be displayed.
+4. Enter the number corresponding to the desired web application to manage.
+5. Choose an action:
+   - **1** to start the web application.
+   - **2** to stop the web application.
+   - **3** to remove the web application.
+
+### If you selected **2** for Windows service management:
+3. A list of available Windows services will be displayed.
+4. Enter the number corresponding to the desired service to manage.
+5. Choose an action:
+   - **1** to start the service.
+   - **2** to stop the service.
+   - **3** to remove the service (stops and disables the service).
+
+**Please ensure you have the necessary permissions and configurations for remote execution, if applicable.**
+
+## Script Functions
+- **Get-Choice**: Displays a list of options and prompts the user to make a choice.
+- **Get-IISWebApplicationName**: Gets a list of IIS web applications and allows the user to choose one.
+- **Get-WindowsServiceName**: Gets a list of Windows services and allows the user to choose one.
+- **Start-IISWebApplication**: Starts the selected IIS web application.
+- **Stop-IISWebApplication**: Stops the selected IIS web application.
+- **Remove-IISWebApplication**: Removes the selected IIS web application.
+- **Start-WindowsService**: Starts the selected Windows service.
+- **Stop-WindowsService**: Stops the selected Windows service.
+- **Remove-WindowsService**: Removes the selected Windows service (stops and disables it).
+
+## Disclaimer
+Please use this script responsibly and ensure that you have the necessary permissions to manage IIS web applications and Windows services on the target systems.
+
+## License
+This script is licensed under the MIT License.
+
+**Note:** This script was generated as a sample ReadMe file for the given PowerShell code provided by the user. To use this ReadMe for a real GitHub repository, you may want to add more detailed information, documentation, usage examples, and any other relevant details to make it a comprehensive and informative ReadMe for your specific project.
+
