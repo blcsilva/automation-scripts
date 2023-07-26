@@ -51,5 +51,4 @@ Please use this script responsibly and ensure that you have the necessary permis
 ## License
 This script is licensed under the MIT License.
 
-**Note:** This script was generated as a sample ReadMe file for the given PowerShell code provided by the user. To use this ReadMe for a real GitHub repository, you may want to add more detailed information, documentation, usage examples, and any other relevant details to make it a comprehensive and informative ReadMe for your specific project.
 
